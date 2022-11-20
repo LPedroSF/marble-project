@@ -6,6 +6,8 @@ function closeMenu(){
     document.body.classList.remove("menu--open")
 };
 
+//FILTER FOR GALERY
+
 const filterContainer = document.querySelector(".gallery-filter");
 const galleryItems = document.querySelectorAll(".gallery-item");
 

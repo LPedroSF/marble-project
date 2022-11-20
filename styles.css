@@ -26,6 +26,7 @@ button:active{
 
 .img{
     width: 100%;
+    object-fit: cover;
 }
 
 .container{
@@ -177,29 +178,12 @@ nav{
 /*
     SPECIALITIES
 */
-
-.special__wrapper{
-    display: flex;
+.carousel-img{
+    width: 100%;
 }
 
-.speciality{
-    width: CALC(100%/3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 8px;
-}
-
-.speciality__imgs{
-    padding: 8px 0;
-    border-bottom: 4px solid blue;
-}
-
-.speciality__subtittle{
-    font-size: 20px;
-    margin-top: 16px;
-    text-align: center;
+.carousel-item{
+    height: 800px;
 }
 
 /*
