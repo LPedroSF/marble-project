@@ -180,6 +180,7 @@ nav{
 */
 .carousel-img{
     width: 100%;
+    object-fit: cover;
 }
 
 .carousel-item{
@@ -459,4 +460,13 @@ footer{
 		width: 50%;
 	}
 
+    .carousel-item{
+        height: 500px;
+    }
+}
+
+@media(max-width: 400px){
+    .carousel-item{
+        height: 300px;
+    }
 }
